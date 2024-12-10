@@ -1,0 +1,10 @@
+@use "mixins" as *;
+@use "typography";
+@use "variables" as *;
+
+body {
+  font-family: "Amaranth", sans-serif;
+  @include regular-font;
+  margin: 0;
+}
+

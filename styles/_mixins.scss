@@ -1,0 +1,15 @@
+@use "./variables" as *;
+
+// Mixin for tablet (min-width 767px, max-width 1279px)
+@mixin tablet {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+
+// Mixin for desktop (min-width 1280px and above)
+@mixin desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
